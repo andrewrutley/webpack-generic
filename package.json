@@ -8,7 +8,7 @@
     "build": "webpack --mode production --env.MODE=production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Rutley",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.6",
