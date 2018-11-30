@@ -90,7 +90,7 @@ module.exports = env => {
           parallel: true,
           sourceMap: true
         }),
-        new OptimizeCssAssetsPlugin({})
+        new OptimizeCssAssetsPlugin() // defaults to cssnano
       ]
     },
     plugins: [
